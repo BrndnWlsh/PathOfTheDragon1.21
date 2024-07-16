@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "pathofthedragon",
+	"version": "${version}",
+	"name": "Path of the Dragon",
+	"description": "This is a mod that changes minecraft into a linear adventure, inspired by classic maps such as herobrine's mansion.",
+	"authors": [
+		"BrndnWlsh!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/pathofthedragon/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.brndnwlsh.pathofthedragon.PathOfTheDragon"
+		],
+		"client": [
+			"net.brndnwlsh.pathofthedragon.PathOfTheDragonClient"
+		],
+		"fabric-datagen": [
+			"net.brndnwlsh.pathofthedragon.PathOfTheDragonDataGenerator"
+		]
+	},
+	"mixins": [
+		"pathofthedragon.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

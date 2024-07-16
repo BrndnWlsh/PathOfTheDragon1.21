@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "net.brndnwlsh.pathofthedragon.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BlockMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "ServerPlayerInteractionManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

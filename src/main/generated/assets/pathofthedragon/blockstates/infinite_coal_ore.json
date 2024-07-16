@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "full=false": {
+      "model": "minecraft:block/stone"
+    },
+    "full=true": {
+      "model": "minecraft:block/coal_ore"
+    }
+  }
+}
