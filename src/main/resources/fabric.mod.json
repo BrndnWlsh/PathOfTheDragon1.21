@@ -8,8 +8,8 @@
 		"BrndnWlsh!"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/BrndnWlsh",
+		"sources": "https://github.com/BrndnWlsh/PathOfTheDragon1.21"
 	},
 	"license": "MIT",
 	"icon": "assets/pathofthedragon/icon.png",
